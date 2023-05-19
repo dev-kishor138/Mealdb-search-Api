@@ -1,0 +1,58 @@
+section
+{
+    width: 90%;
+    margin: auto;
+}
+.food-item
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 40px;
+}
+
+.food-card {
+    height: 400px;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: -6px 8px 29px -9px rgba(0,0,0,0.59);
+}
+.food-card img
+{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mealDetails {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #777;
+    border-radius: 10px;
+}
+.detalis-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.details-img {
+    width: 40%;
+}
+.detalis-card .details-img img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.details-card .details-body
+{
+    position: relative;
+    width: 60%;
+}
+h5 {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #fff;
+}
